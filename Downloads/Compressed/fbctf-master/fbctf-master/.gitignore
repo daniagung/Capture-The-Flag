@@ -1,0 +1,36 @@
+# Composer libraries
+/vendor
+/reports
+
+# NPM modules
+/node_modules
+
+# Sass cache
+.sass-cache
+
+# HHVM files
+www.pid
+
+# Configuration files
+*.ini
+!tests/server.ini
+
+# Vagrant Artifacts
+.vagrant
+.sources
+
+# OS artifacts
+.DS_Store
+
+# Editors
+*~
+\#*\#
+*.swp
+*.swn
+*.swo
+
+# Attachments directory
+src/data/attachments/*
+!src/data/attachments/index.php
+src/data/attachments/deleted/*
+!src/data/attachments/deleted/index.php
